@@ -1,0 +1,71 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('../img/fondo.jpg'); /* Ruta relativa hacia la carpeta img */
+    background-repeat: repeat;
+    background-size: 30%;
+    font-family: Arial, sans-serif;
+    color: #333;
+    text-align: center;
+}
+
+h1 {
+    margin: 50px 10px;
+    font-size: 2.5rem;
+    color: #ffffff;
+    text-shadow: 2px 2px 5px #000;
+}
+
+h2 {
+    font-size: 1.8rem;
+    color: white ;
+    text-shadow: 2px 2px 4px #000;
+    margin: 20px 0px;
+}
+
+
+h3{
+    margin: 20px 0px;
+
+}
+
+h3 a {
+    font-size: 1.5rem;
+    color: #af3200;
+    text-decoration: none;
+}
+
+h3 a:hover {
+    color: #ffaa00;
+    text-decoration: underline;
+}
+
+
+
+img {
+    max-width: 80%;
+    height: 20%;
+    height: auto;
+    margin: 20px 0;
+    border: 3px solid #fff;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+.gif{
+    border: none;
+    box-shadow: none;
+    position: absolute;
+    top: 80%; /* Ajusta la posición vertical */
+    left: 20%; /* Ajusta la posición horizontal */
+    transform: translate(-50%, -50%); /* Centra el GIF exactamente */
+    width: 80%; /* Tamaño del GIF (podés ajustarlo según prefieras) */
+    z-index: 1; /* Coloca el GIF detrás del contenido */
+    opacity: 0.7; /* Ajusta la transparencia del GIF */
+    pointer-events: none; /* Hace que el GIF no interfiera con clics en los elementos frontales */
+}
